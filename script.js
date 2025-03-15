@@ -1507,7 +1507,7 @@ function initBackToHomeButton() {
       // After animation completes, redirect to index.html
       setTimeout(() => {
         window.location.href = "index.html"
-      }, 1500)
+      }, 500)
 
       // Add pulse animation to the button
       backToHomeBtn.classList.add("pulse")
